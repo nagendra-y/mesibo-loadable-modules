@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+HTTP_BUFFER_LEN	skeleton.cpp	67;"	d	file:
+MESIBO_FLAG_DELIVERYRECEIPT	skeleton.cpp	56;"	d	file:
+MESIBO_FLAG_READRECEIPT	skeleton.cpp	57;"	d	file:
+MODULE	Makefile	/^MODULE=skeleton$/;"	m
+buffer	skeleton.cpp	/^        char buffer[HTTP_BUFFER_LEN];$/;"	m	struct:http_context_s	file:
+datalen	skeleton.cpp	/^        int datalen;$/;"	m	struct:http_context_s	file:
+http_context_s	skeleton.cpp	/^typedef struct http_context_s {$/;"	s	file:
+http_context_t	skeleton.cpp	/^} http_context_t;$/;"	t	typeref:struct:http_context_s	file:
+mesibo_module_http_data_callback	skeleton.cpp	/^mesibo_int_t mesibo_module_http_data_callback(void *cbdata, mesibo_int_t state, mesibo_int_t progress, const char *buffer, mesibo_int_t size) {$/;"	f
+mesibo_module_skeleton_init	skeleton.cpp	/^MESIBO_EXPORT int mesibo_module_skeleton_init(mesibo_int_t version, mesibo_module_t *m, mesibo_int_t len) {$/;"	f
+mod	skeleton.cpp	/^        mesibo_module_t *mod;$/;"	m	struct:http_context_s	file:
+skeleton_http	skeleton.cpp	/^static mesibo_int_t skeleton_http(mesibo_module_t *mod) {$/;"	f	file:
+skeleton_on_cleanup	skeleton.cpp	/^static mesibo_int_t skeleton_on_cleanup(mesibo_module_t *mod) {$/;"	f	file:
+skeleton_on_login	skeleton.cpp	/^static mesibo_int_t skeleton_on_login(mesibo_module_t *mod, mesibo_user_t *user) {$/;"	f	file:
+skeleton_on_message	skeleton.cpp	/^static mesibo_int_t skeleton_on_message(mesibo_module_t *mod, mesibo_message_params_t *p, const char *message, mesibo_uint_t len) {$/;"	f	file:
+skeleton_on_message_status	skeleton.cpp	/^static mesibo_int_t skeleton_on_message_status(mesibo_module_t *mod, mesibo_message_params_t *p, mesibo_uint_t status) {$/;"	f	file:

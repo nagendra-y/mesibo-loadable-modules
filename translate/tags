@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+HTTP_BUFFER_LEN	translate.cpp	59;"	d	file:
+MODULE	Makefile	/^MODULE=translate$/;"	m
+MODULE_LOG_LEVEL_0VERRIDE	translate.cpp	60;"	d	file:
+_GNU_SOURCE	translate.cpp	53;"	d	file:
+access_token	translate.cpp	/^	const char* access_token;$/;"	m	struct:translate_config_s	file:
+auth_bearer	translate.cpp	/^	char* auth_bearer;$/;"	m	struct:translate_config_s	file:
+buffer	translate.cpp	/^	char buffer[HTTP_BUFFER_LEN];$/;"	m	struct:http_context_s	file:
+datalen	translate.cpp	/^	int datalen;$/;"	m	struct:http_context_s	file:
+endpoint	translate.cpp	/^	const char* endpoint;$/;"	m	struct:translate_config_s	file:
+from	translate.cpp	/^	char *from;$/;"	m	struct:http_context_s	file:
+get_config_google_translate	translate.cpp	/^static translate_config_t*  get_config_google_translate(mesibo_module_t* mod){$/;"	f	file:
+http_context_s	translate.cpp	/^typedef struct http_context_s {$/;"	s	file:
+http_context_t	translate.cpp	/^} http_context_t;$/;"	t	typeref:struct:http_context_s	file:
+log	translate.cpp	/^	int log;$/;"	m	struct:translate_config_s	file:
+mesibo_module_translate_init	translate.cpp	/^int mesibo_module_translate_init(mesibo_int_t version, mesibo_module_t *m, mesibo_uint_t len) {$/;"	f
+mesibo_translate_destroy_http_context	translate.cpp	/^void mesibo_translate_destroy_http_context(http_context_t* mc){$/;"	f
+mesibo_translate_get_http_opt	translate.cpp	/^static module_http_option_t* mesibo_translate_get_http_opt(translate_config_t* tc){$/;"	f	file:
+mod	translate.cpp	/^	mesibo_module_t *mod;$/;"	m	struct:http_context_s	file:
+params	translate.cpp	/^	mesibo_message_params_t *params;$/;"	m	struct:http_context_s	file:
+post_data	translate.cpp	/^	char* post_data; \/\/For cleanup after HTTP request is complete$/;"	m	struct:http_context_s	file:
+source	translate.cpp	/^	const char* source;$/;"	m	struct:translate_config_s	file:
+target	translate.cpp	/^	const char* target;$/;"	m	struct:translate_config_s	file:
+to	translate.cpp	/^	char *to;$/;"	m	struct:http_context_s	file:
+translate_config_s	translate.cpp	/^typedef struct translate_config_s {$/;"	s	file:
+translate_config_t	translate.cpp	/^} translate_config_t;$/;"	t	typeref:struct:translate_config_s	file:
+translate_http_callback	translate.cpp	/^static int translate_http_callback(void *cbdata, mesibo_int_t state,$/;"	f	file:
+translate_http_opt	translate.cpp	/^	module_http_option_t* translate_http_opt;$/;"	m	struct:translate_config_s	file:
+translate_init_google	translate.cpp	/^static int translate_init_google(mesibo_module_t* mod){$/;"	f	file:
+translate_on_cleanup	translate.cpp	/^static  mesibo_int_t  translate_on_cleanup(mesibo_module_t* mod){$/;"	f	file:
+translate_on_message	translate.cpp	/^static mesibo_int_t translate_on_message(mesibo_module_t *mod, mesibo_message_params_t *p,$/;"	f	file:
+translate_process_message	translate.cpp	/^static int translate_process_message(mesibo_module_t *mod, mesibo_message_params_t *p,$/;"	f	file:

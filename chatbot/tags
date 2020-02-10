@@ -1,0 +1,44 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+HTTP_BUFFER_LEN	chatbot.cpp	59;"	d	file:
+HTTP_POST_URL_LEN_MAX	chatbot.cpp	61;"	d	file:
+HTTP_RESPONSE_TYPE_LEN	chatbot.cpp	60;"	d	file:
+MODULE	Makefile	/^MODULE=chatbot$/;"	m
+MODULE_LOG_LEVEL_0VERRIDE	chatbot.cpp	62;"	d	file:
+access_token	chatbot.cpp	/^	const char* access_token;$/;"	m	struct:chatbot_config_s	file:
+address	chatbot.cpp	/^	const char* address;$/;"	m	struct:chatbot_config_s	file:
+auth_bearer	chatbot.cpp	/^	char* auth_bearer;$/;"	m	struct:chatbot_config_s	file:
+buffer	chatbot.cpp	/^        char buffer[HTTP_BUFFER_LEN];$/;"	m	struct:http_context_s	file:
+chatbot_config_s	chatbot.cpp	/^typedef struct chatbot_config_s {$/;"	s	file:
+chatbot_config_t	chatbot.cpp	/^} chatbot_config_t;$/;"	t	typeref:struct:chatbot_config_s	file:
+chatbot_http_on_close_callback	chatbot.cpp	/^void chatbot_http_on_close_callback(void *cbdata,  mesibo_int_t result){$/;"	f
+chatbot_http_on_data_callback	chatbot.cpp	/^static mesibo_int_t chatbot_http_on_data_callback(void *cbdata, mesibo_int_t state,$/;"	f	file:
+chatbot_http_on_status_callback	chatbot.cpp	/^mesibo_int_t chatbot_http_on_status_callback(void *cbdata, mesibo_int_t status, const char *response_type){$/;"	f
+chatbot_http_req	chatbot.cpp	/^	mesibo_http_t* chatbot_http_req;$/;"	m	struct:chatbot_config_s	file:
+chatbot_init_dialogflow	chatbot.cpp	/^static mesibo_int_t chatbot_init_dialogflow(mesibo_module_t* mod){$/;"	f	file:
+chatbot_on_cleanup	chatbot.cpp	/^static  mesibo_int_t  chatbot_on_cleanup(mesibo_module_t* mod){$/;"	f	file:
+chatbot_on_message	chatbot.cpp	/^static mesibo_int_t chatbot_on_message(mesibo_module_t *mod, mesibo_message_params_t *p,$/;"	f	file:
+chatbot_process_message	chatbot.cpp	/^static mesibo_int_t chatbot_process_message(mesibo_module_t *mod, mesibo_message_params_t *p,$/;"	f	file:
+datalen	chatbot.cpp	/^        int datalen;$/;"	m	struct:http_context_s	file:
+endpoint	chatbot.cpp	/^	const char* endpoint;$/;"	m	struct:chatbot_config_s	file:
+from	chatbot.cpp	/^        char *from;$/;"	m	struct:http_context_s	file:
+get_config_dialogflow	chatbot.cpp	/^static chatbot_config_t*  get_config_dialogflow(mesibo_module_t* mod){$/;"	f	file:
+http_context_s	chatbot.cpp	/^typedef struct http_context_s {$/;"	s	file:
+http_context_t	chatbot.cpp	/^} http_context_t;$/;"	t	typeref:struct:http_context_s	file:
+language	chatbot.cpp	/^	const char* language;$/;"	m	struct:chatbot_config_s	file:
+log	chatbot.cpp	/^	int log;$/;"	m	struct:chatbot_config_s	file:
+mesibo_chatbot_destroy_http_context	chatbot.cpp	/^void mesibo_chatbot_destroy_http_context(http_context_t* mc){$/;"	f
+mesibo_chatbot_get_http_req	chatbot.cpp	/^static mesibo_http_t* mesibo_chatbot_get_http_req(chatbot_config_t* cbc){$/;"	f	file:
+mesibo_module_chatbot_init	chatbot.cpp	/^MESIBO_EXPORT int mesibo_module_chatbot_init(mesibo_int_t version, mesibo_module_t *m, mesibo_uint_t len) {$/;"	f
+mod	chatbot.cpp	/^        mesibo_module_t *mod;$/;"	m	struct:http_context_s	file:
+params	chatbot.cpp	/^	mesibo_message_params_t* params;$/;"	m	struct:http_context_s	file:
+post_data	chatbot.cpp	/^	char* post_data; \/\/Cleanup after HTTP request is complete$/;"	m	struct:http_context_s	file:
+post_url	chatbot.cpp	/^	char* post_url;$/;"	m	struct:chatbot_config_s	file:
+project	chatbot.cpp	/^	const char* project;$/;"	m	struct:chatbot_config_s	file:
+response_type	chatbot.cpp	/^        char response_type[HTTP_RESPONSE_TYPE_LEN];$/;"	m	struct:http_context_s	file:
+status	chatbot.cpp	/^        mesibo_int_t status;$/;"	m	struct:http_context_s	file:
+to	chatbot.cpp	/^        char *to;$/;"	m	struct:http_context_s	file:
